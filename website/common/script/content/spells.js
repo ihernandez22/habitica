@@ -284,6 +284,7 @@ spells.special = {
     immediateUse: true,
     target: 'self',
     notes: t('spellSpecialSaltNotes'),
+    purchaseType: 'reverse_transformation',
     cast (user) {
       user.stats.buffs.snowball = false;
       user.stats.gp -= 5;
@@ -314,6 +315,7 @@ spells.special = {
     immediateUse: true,
     target: 'self',
     notes: t('spellSpecialOpaquePotionNotes'),
+    purchaseType: 'reverse_transformation',
     cast (user) {
       user.stats.buffs.spookySparkles = false;
       user.stats.gp -= 5;
@@ -344,6 +346,7 @@ spells.special = {
     immediateUse: true,
     target: 'self',
     notes: t('spellSpecialPetalFreePotionNotes'),
+    purchaseType: 'reverse_transformation',
     cast (user) {
       user.stats.buffs.shinySeed = false;
       user.stats.gp -= 5;
@@ -374,6 +377,7 @@ spells.special = {
     immediateUse: true,
     target: 'self',
     notes: t('spellSpecialSandNotes'),
+    purchaseType: 'reverse_transformation',
     cast (user) {
       user.stats.buffs.seafoam = false;
       user.stats.gp -= 5;
